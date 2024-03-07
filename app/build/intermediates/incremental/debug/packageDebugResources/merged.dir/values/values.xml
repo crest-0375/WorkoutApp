@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_logo_grey">#b3af96</color>
+    <color name="black">#FF000000</color>
+    <color name="dark_brown">#CD7D36</color>
+    <color name="dark_green">#31572c</color>
+    <color name="light_brown">#fefae0</color>
+    <color name="light_green">#90a955</color>
+    <color name="light_grey">#C4C4C4</color>
+    <color name="medium_brown">#EDB077</color>
+    <color name="medium_green">#4f772d</color>
+    <color name="very_dark_green">#132a13</color>
+    <color name="very_light_green">#ecf39e</color>
+    <color name="very_light_grey">#EEEEEE</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">WorkoutApp</string>
+    <style name="Base.Theme.WorkoutApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorPrimaryVariant">@color/very_dark_green</item>
+        <item name="colorSecondaryVariant">@color/dark_brown</item>
+        <item name="colorSecondary">@color/medium_brown</item>
+    </style>
+    <style name="Theme.SplashScreen" parent="Base.Theme.WorkoutApp">
+        <item name="android:windowBackground">@drawable/splashscreen_background</item>
+    </style>
+    <style name="Theme.ToolBar" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="colorControlNormal">@color/medium_brown</item>
+    </style>
+    <style name="Theme.WorkoutApp" parent="Base.Theme.WorkoutApp"/>
+</resources>
